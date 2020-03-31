@@ -40,7 +40,6 @@ public class B_2252 {
                 }
             }
         }
-
         ans.stream().forEach(e -> System.out.println(e));
     }
 }
