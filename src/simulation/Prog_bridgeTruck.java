@@ -13,7 +13,7 @@ public class Prog_bridgeTruck {
             Queue<int[]> bridge = new LinkedList<>();
 
             int truckInd = 0;
-            int time = 0;
+            int time = 1;
             int weightLeft = weight - truck_weights[truckInd];
             bridge.offer(new int[] {truck_weights[truckInd++], time++ + bridge_length});
             while (!bridge.isEmpty()) {
@@ -34,7 +34,7 @@ public class Prog_bridgeTruck {
                     time++;
                 }
             }
-            return time;
+            return time - 1;
         }
     }
 }
