@@ -3,8 +3,8 @@ package mst;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 백준 1997번 최소스패닝트리
-public class B_1197 {
+// 백준 1997번 최소스패닝트리 크루스칼 풀이
+public class B_1197_kruskal {
     static int parent[];
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
