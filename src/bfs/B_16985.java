@@ -99,13 +99,9 @@ public class B_16985 {
 
     static int[][] rotate(int mazeInd) {
         int[][] rotated = new int[5][5];
-        Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                stack.push(maze[mazeInd][j][i]);
-            }
-            for (int j = 0; j < 5; j++) {
-                rotated[i][j] = stack.pop();
+                rotated[j][5 - 1 - i] = maze[mazeInd][i][j];
             }
         }
         return rotated;
