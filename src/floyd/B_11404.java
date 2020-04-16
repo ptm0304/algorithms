@@ -1,4 +1,4 @@
-package past;
+package floyd;
 
 import java.util.Scanner;
 
