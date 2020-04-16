@@ -2,9 +2,9 @@ package dp;
 
 import java.util.Scanner;
 
-public class B_14852 {
+public class B_14852_topDown {
     static long[] memo1; // 평평한 메모
-    static long[] memo2; // 튀어나온 메
+    static long[] memo2; // 튀어나온 메모
     static int n;
     static int mod = 1000000007;
 
